@@ -1,9 +1,47 @@
-<<!DOCTYPE html>
-<html>
-<head>
-	<title>Wallpaper Generator</title>
-</head>
-<body>
-	<h1>Ready?</h1>
-</body>
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Wallpaper Generator</title>
+    
+    
+    <link rel="stylesheet" href="css/reset.css">
+
+    
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    
+<div class="cover">
+  <div class="content">
+    <h1>Generate a pixel perfect wallpaper for your device</h1>
+    <div>
+      <button id="generator" type='button'>Generate</button>
+      <iframe id="ifr" onload="ok()" src="">
+      </iframe>
+      <div id="close" class="btnCustom hide">X</div>
+      <div id="refresh" class="btnCustom hide">refresh</div>
+    </div>
+  </div>
+</div>
+<div id="waiting" class="cover fixed hide">
+  <div class="loader">
+  </div>
+</div>
+<div class="footer">
+  crafted by <a href="github.com/felipew">felipew</a>
+</div>
+    
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
 </html>
