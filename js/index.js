@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', bootstrapApp);
 
-var btn,refresh,ifr,close, waiting;
+var btn,refresh,ifr,close,waiting;
 
 function bootstrapApp (event) {
   btn = document.getElementById("generator");
